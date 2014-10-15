@@ -7,7 +7,7 @@ MAINTAINER Juan Carlos Garcia Pelaez <juancarlosgpelaez@gmail.com>
 
 RUN \
 	apt-get update && \
-	apt-get install curl php5-curl wget && \
+	apt-get install -y curl php5-curl wget && \
 	mkdir -p /opt && \
     chmod a+r /opt
 
