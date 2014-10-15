@@ -1,1 +1,1 @@
-# Docker base image for jboss As 7 #
+# Docker base image with debian #
